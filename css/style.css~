@@ -541,6 +541,7 @@
 
 					.main.style2.center .content {
 						position:relative;
+						top:11px;
 						margin-left:auto;
 						margin-right:auto;
 					opacity:0.8;
@@ -1165,15 +1166,37 @@
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 	}
-		#one h1{
-			margin-top:0;
+		/*#one h1{
+		
 			font-size: 50%;
 			color: black;	
+			text-align:center;
+			margin-top:-65px;
+		}*/
+
+
+		.one.left{
+			margin-left:1%;
+			margin-right:70%;
+			font-size:90%;
+			font:bold;
+			border:2px dotted;
 		}
+		.one.left p{
+			font-size:160%;
+			font-family:"Times New Roman",Georgia,Serif;
+			
+			}
+		.one.left a{
+			font-family:"Times New Roman",Georgia,Serif;
+			line-height:10%;
+			color:black;
+			line-height:10px;
+	`		}
 
-
-/*		#one_in{
-			opacity:0.5;
+		.one.right{
+			border: 2px dotted;
+			float:right;
 		}
 /*********************************************************************************/
 /* Two                                                                           */

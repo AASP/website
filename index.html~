@@ -66,11 +66,14 @@
 			<section id="one" class="main style2 center dark fullscreen">
 				<div class="content box style2";>
 										
+					
+					<div class="one left">	
 					<header>
-						<h2 style="text-align:center;margin-top:-70px;">What Do We Do</h2>
-					</header>
-					<div id="one_in">				
-						<p>Lower your overall cost, dramatically increase your system productivity and enjoy unparalleled ROI. We provide highly industrialized automated solutions backed by strong technical expertise. Expect nothing but the best solutions and services from us.</p>
+						<p>What Do We Do</p>
+					</header>			
+						<p1>Lower your overall cost, dramatically increase your system productivity and enjoy unparalleled ROI. We provide highly industrialized automated solutions backed by strong technical expertise. Expect nothing but the best solutions and services from us.</p1>
+					</div>
+					<div class="one right">jhsjkhqsdhkjhqwdjkhij
 					</div>
 				</div>
 				<a href="#two" class="button style2 down anchored">Next</a>
