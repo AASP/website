@@ -161,7 +161,7 @@
 							 point the "action" attribute to it (eg. action="http://mydomain.tld/mail.php").
 							 More on how it all works here: http://www.1stwebdesigner.com/tutorials/custom-php-contact-forms/
 						-->
-							<form method="post" action="#">
+							<form method="post" action="mail.php">
 								<div class="row half">
 									<div class="6u"><input type="text" name="name" placeholder="Name" /></div>
 									<div class="6u"><input type="text" name="email" placeholder="Email" /></div>
@@ -177,7 +177,17 @@
 									</div>
 								</div>
 							</form>
-                                                      <P><b> you are also call our contacts</b></P>
+                                                    
+
+<!--					
+<form action="mail.php" method="POST">
+	<p>Name</p> <input type="text" name="name">
+	<p>Email</p> <input type="text" name="email">
+	<p>Message</p><textarea name="message" rows="6" cols="25"></textarea><br />
+	<input type="submit" value="Send"><input type="reset" value="Clear">
+</form>
+	-->						
+							  <P><b> you are also call our contacts</b></P>
                                                           <input type="text" name="zoom_query">
 					</div>
 				</div>
