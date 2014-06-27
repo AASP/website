@@ -1177,19 +1177,19 @@
     		display:inline-block;
 				width:30%;
 				background-color:green;
+			
 }
 
 		}
-		.one.left p{
-			font-size:160%;
+		.one.left h1{
+			font-size:200%;
 			font-family:"Times New Roman",Georgia,Serif;
 
 			}
-		.one.left a{
-			font-family:"Times New Roman",Georgia,Serif;
-			line-height:10%;
+		.one.left p{
 			color:black;
-			line-height:5px;
+			line-height:20px;
+			font-size:90%;
 	`		}
 
 		.one.right{
