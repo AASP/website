@@ -545,7 +545,6 @@
 						margin-right:auto;
 					opacity:0.8;
 					width:90%;
-
 					text-align:justify;
 
 					}
@@ -1193,10 +1192,11 @@
 			line-height:5px;
 	`		}
 
-		.one.center{
+		.one.right{
 	   display: inline-block;
-		width:50%;
+		width:69%;
 		background-color:red;
+		float:right;
 		}
 /*********************************************************************************/
 /* Two                                                                           */
