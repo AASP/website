@@ -22,13 +22,13 @@
 			<header id="header">
 
 				<!-- Logo -->
-				<h1 id="logo"><a href="#"><img src="images/logo.png" ></a></h1>			 
+				<h1 id="logo"><a href="#"><img src="images/logo.png" ></a></h1>
 				<!-- Nav -->
 					<nav id="nav">
-                                                           
+
 
 						<ul>
-							
+
 							<!--<li><a href="#intro">About us</a></li>-->
 							<li><a href="#one">Services</a></li>
 							<li><a href="#two">Technologies</a></li>
@@ -38,11 +38,11 @@
 					</nav>
 
 			</header>
-			
+
 		<!-- Intro -->
 			<section id="intro" class="main style1 dark fullscreen">
 				<div class="content container small">
-										
+
 					<header>
 						<!--<b>Akal Automation  &  Solution Providers</b>-->
 						<!--<p style="font-family:arial;color:pink;font-size:250%;">Does a solution hides from us</p>
@@ -50,7 +50,7 @@
 					</header>
 					<div id="intro_in">
                                                            <p> <b>&#147;</b> <strong> Everything is designed, Few things are designed well.</strong>  <b> &#148;</b></p><p> Don't hide yourself and consult a DeSiGnEr.</p>
-<!--		
+<!--
 							<p><b>&#147;</b>Dear <strong>problem</strong> you have no<br> place to hide.
 					 		<b><a href="http://html5up.net">We Are</a></b>,<br> the <b><a href="http://skeljs.org">AASP
 							</a></b>,We know<br> the solution with <b>
@@ -61,24 +61,24 @@
 					</footer>
 				</div>
 			</section>
-		
+
 		<!-- One -->
 			<section id="one" class="main style2 center dark fullscreen">
 				<div class="content box style2";>
-										
-					
-					<div class="one left">	
-					<header>
-						<p>What Do We Do</p>
-					</header>			
-						<a>Lower your overall cost, dramatically increase your system productivity and enjoy unparalleled ROI. We provide highly industrialized automated solutions backed by strong technical expertise. Expect nothing but the best solutions and services from us.</a>
-					</div>
-					<div class="one right">jhsjkhqsdhkjhqwdjkhij
-					</div>
+
+
+						<div class="one left">
+								<header>
+									<p>What Do We Do</p>
+								</header>
+								<a>Lower your overall cost, dramatically increase your system productivity and enjoy unparalleled ROI. We provide highly industrialized automated solutions backed by strong technical expertise. Expect nothing but the best solutions and services from us.</a>
+						</div>
+						<div class="one center">jhsjkhqsdhkjhqwdjkhij fas
+						</div>
 				</div>
 				<a href="#two" class="button style2 down anchored">Next</a>
 			</section>
-		
+
 		<!-- Two -->
 			<section id="two" class="main style2 left dark fullscreen">
 				<div class="content box style2">
@@ -91,7 +91,7 @@
 				</div>
 				<a href="#work" class="button style2 down anchored">Next</a>
 			</section>
-			
+
 		<!-- Work -->
 			<section id="work" class="main style3 primary">
 				<div class="content container">
@@ -99,10 +99,10 @@
 						<h2 style="text-align:center">Procucts</h2>
 						<p>to be co.........</p>
 					</header>
-					
+
 					<!--
 						 Lightbox Gallery
-						 
+
 						 Powered by poptrox. Full docs here: https://github.com/n33/jquery.poptrox
 					-->
 						<div class="container small gallery">
@@ -122,7 +122,7 @@
 
 				</div>
 			</section>
-			
+
 		<!-- Contact -->
 			<section id="contact" class="main style3 secondary">
 				<div class="content container">
@@ -134,29 +134,29 @@
     var lat            = 30.640947;
     var lon            = 76.399316;
     var zoom           = 14;
- 
+
     var fromProjection = new OpenLayers.Projection("EPSG:4326");   // Transform from WGS 1984
     var toProjection   = new OpenLayers.Projection("EPSG:900913"); // to Spherical Mercator Projection
     var position       = new OpenLayers.LonLat(lon, lat).transform( fromProjection, toProjection);
- 
+
     map = new OpenLayers.Map("Map");
     var mapnik         = new OpenLayers.Layer.OSM();
     map.addLayer(mapnik);
- 
+
     var markers = new OpenLayers.Layer.Markers( "Markers" );
     map.addLayer(markers);
     markers.addMarker(new OpenLayers.Marker(position));
- 
+
     map.setCenter(position, zoom);
 </script>
 
 						<p>If you have any comments or queries, please write hear</p>
 					</header>
 					<div class="box container small">
-					
+
 						<!--
 							 Contact Form
-							 
+
 							 To get this working, place a script on your server to receive the form data, then
 							 point the "action" attribute to it (eg. action="http://mydomain.tld/mail.php").
 							 More on how it all works here: http://www.1stwebdesigner.com/tutorials/custom-php-contact-forms/
@@ -177,28 +177,28 @@
 									</div>
 								</div>
 							</form>
-                                                    
 
-<!--					
+
+<!--
 <form action="mail.php" method="POST">
 	<p>Name</p> <input type="text" name="name">
 	<p>Email</p> <input type="text" name="email">
 	<p>Message</p><textarea name="message" rows="6" cols="25"></textarea><br />
 	<input type="submit" value="Send"><input type="reset" value="Clear">
 </form>
-	-->						
+	-->
 							  <P><b> you are also call our contacts</b></P>
                                                           <input type="text" name="zoom_query">
 					</div>
 				</div>
 			</section>
-			
+
 		<!-- Footer -->
 			<footer id="footer">
-			
+
 				<!--
 				     Social Icons
-				     
+
 				     Use anything from here: http://fortawesome.github.io/Font-Awesome/cheatsheet/)
 				-->
 					<ul class="actions">
@@ -215,7 +215,7 @@
 						<li>&copy; Untitled</li>
 						<li>Design: <a href="http://html5up.net/">HTML5 UP</a></li>
 					</ul>
-			
+
 			</footer>
 
 	</body>
