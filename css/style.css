@@ -1218,7 +1218,7 @@
 	#two h2{		
 		text-align:center;
 		margin-top:-7%;
-		
+		color:#6699FF;
 	}
      		.two.left{
     			display:inline-block;
@@ -1228,7 +1228,7 @@
 		}
 			.two.left h3{
 				font-size:130%;
-				color:#99FF33;
+				color:#DBB2B2;
 				text-align:center;
 			}
 			.two.left p{
@@ -1245,7 +1245,7 @@
 			}
 			.two.right h3{
 				font-size:130%;
-				color:#99FF33;
+				color:#DBB2B2;
 				text-align:center;
 			}
 			.two.right p{
@@ -1264,7 +1264,7 @@
 		}
 			.two.center h3{
 				font-size:130%;
-				color:#99FF33;
+				color:#DBB2B2;
 				text-align:center;
 			}
 			.two.center p{
