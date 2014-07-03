@@ -12,3 +12,4 @@
 	mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
 	echo "Thank You!";
 	?>
+good
