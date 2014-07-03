@@ -71,8 +71,11 @@
 								<h1>What Do We Do</h1>
 								<p>Lower your overall cost, dramatically increase your system productivity and enjoy unparalleled ROI. We provide highly industrialized automated solutions backed by strong technical expertise. Expect nothing but the best solutions and services from us.</p>
 						</div>
-						<div class="one right">jhsjkhqsdhkjh<br>q<br>wdjkhij fasdfsgdgdfgdfgdfgdgdgdfgdfgdfgdgdgdfgdfgdfggdfgdgdgdfg
-						</div>
+						<div class="one right">
+                                                   <div class="one in
+"> hhjjjkjkkk</div>
+
+				
 				</div>
 				<a href="#two" class="button style2 down anchored">Next</a>
 			</section>
@@ -83,7 +86,7 @@
 					<h2>Technologies</h2>
 						<div class="two left">
 							<h3>Client side</h3>
-							<p>Java script<br>HTML<br>HTML5<br>CSS3</p>
+							<p>CSS3<br>HTML<br>HTML5<br>Java script</p>
 						</div>
 						<div class="two right">
 							<h3>DB side</h3>
