@@ -335,7 +335,6 @@
 				border: 0;
 			}
 
-	/* Tables */
 
 		table {
 			width: 100%;
@@ -1184,7 +1183,7 @@
 		.one.left h1{
 			font-size:200%;
 			font-family:"Times New Roman",Georgia,Serif;
-			padding-top:20%;
+
 			}
 		.one.left p{
 			color:black;
@@ -1198,6 +1197,12 @@
 		background-color:red;
 		float:right;
 		}
+                  .one.in
+                    {
+			width:69%;
+   			background-color:red;
+                        float:right;
+                    }
 /*********************************************************************************/
 /* Two                                                                           */
 /*********************************************************************************/
